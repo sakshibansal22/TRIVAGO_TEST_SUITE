@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="trivagotest" verbose="1">    
+<listeners>
+    <listener class-name="com.trivago.TestContextUtil" />
+</listeners>
+
+<test name="trivagotest">
+<classes>
+<class name ="com.trivago.TestCases"/>
+
+</classes>
+</test>   
+</suite>

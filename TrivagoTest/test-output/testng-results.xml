@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34751" started-at="2017-08-09T13:34:11Z" finished-at="2017-08-09T13:34:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34751" started-at="2017-08-09T13:34:11Z" finished-at="2017-08-09T13:34:46Z">
+      <class name="com.trivago.TestCases">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.trivago.TestCases@3b0143d3]" name="beforetest" is-config="true" duration-ms="31216" started-at="2017-08-09T19:04:11Z" finished-at="2017-08-09T19:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="TC1_VerifyHeaderNameAfterSelectingDestination()[pri:0, instance:com.trivago.TestCases@3b0143d3]" name="TC1_VerifyHeaderNameAfterSelectingDestination" duration-ms="3462" started-at="2017-08-09T19:04:42Z" description="Verify Article Header Name After Selecting The Destination" finished-at="2017-08-09T19:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_VerifyHeaderNameAfterSelectingDestination -->
+      </class> <!-- com.trivago.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
