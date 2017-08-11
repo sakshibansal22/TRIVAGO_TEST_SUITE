@@ -30,5 +30,14 @@ public class UtilityClass extends DriverFactory {
 		return driver.findElement(By.xpath(Xpath)).getText();
 
 	}
+	
+	public static  void enterTextLocator(String Xpath, String text) {
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath(Xpath))));
+
+		 driver.findElement(By.xpath(Xpath)).sendKeys(text);
+
+	}
 
 }
